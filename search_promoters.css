@@ -1,0 +1,97 @@
+body{
+    background: #F5F9FC;
+    font-family: "Verdana", sans-serif;
+}
+
+div#wrapper {
+    margin: 0 auto;
+    background: white;
+    width: auto;
+    height: 1800px;
+}
+
+/* HEADER */
+#horzNav {
+    display: block;
+    width: auto;
+    height: 40px;
+    padding: 0px 20px 0px 20px;
+    background-color: #96C3EB;
+}
+
+#horzNav h3{
+    padding: 10px 20px 10px 20px;
+    color: white;
+    text-align: center;
+    letter-spacing: .1em;
+    word-spacing: .05em;
+}
+
+/* MAIN SEARCH */
+#main_search {
+    background: #C6C2CA;
+    padding: 10px 10px 50px 10px;
+    text-align: center;
+}
+
+#main_search p#title{
+    float:center;
+
+}
+
+#search_term {
+    width: 700px;
+    height: 30px;
+    padding: 10px;
+}
+
+
+
+/* AFTER SEARCH ENTRY */
+.flex-container {
+    display:flex;
+}
+
+/* SEARCH FILTERS */
+section#filters {
+    display: none;
+}
+.side {
+    flex: 35%
+}
+
+#sidebar {
+    flex-grow: 2;
+    flex-shrink:1;
+    padding-top:10px;
+    padding-right:10px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    float: left;
+    width: 400px;
+    height: auto;
+    background: #dbe9f4;
+}
+
+p#headings {
+    font-size: 11pt;
+    font-weight: bold;
+    border-bottom-style: groove;
+    border-bottom-color: #6C757D;
+    letter-spacing: .04em;
+}
+
+.labels {
+    font-size: 10pt;
+    padding-left:15px;
+    padding-bottom: 2px;
+}
+
+#section.labels {
+    font-size: 10pt;
+}
+
+h3 {
+    letter-spacing: .07em;
+
+}
