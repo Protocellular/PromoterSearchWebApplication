@@ -1,0 +1,43 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Promoter Search - Registry of Standard Biological Parts</title>
+    <link rel="stylesheet" type="text/css" href="css/search_promoters.css">
+    <link rel ="stylesheet" type="text/css" href= "css/jquery_ui.css">
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src = "https://code.jquery.com/jquery-1.10.2.js"></script>
+    <script src = "https://code.jquery.com/ui/1.10.4/jquery-ui.js"></script>
+    <script type="text/javascript" src="js/search.js"></script>
+    <script type="text/javascript" src="js/autocomplete.js"></script>
+</head>
+
+<body>
+    <div id ="wrapper">
+
+<!--  HEADER -->
+        <nav id = "horzNav">
+            <p id="p-1">
+                <h3>Promoter Search - iGEM Registry of Standard Biological Parts</h3>
+            </p>
+        </nav>
+
+<!--  MAIN SEARCH -->
+        <div id="search_bar">
+            <form id="main_search" name="main_search">
+
+            <p id="title">Find a promoter...</p>
+
+            <input name="search_term" id="search_term" type="search" class="autocomplete" value="" autofocus="autofocus" placeholder="Promoter">
+            <input name="submit" type="submit" id="submit" value="Search"><br>
+
+            </form>
+        </div>
+
+
+</div> <!--End of wrapper -->
+</body>
+</html>
